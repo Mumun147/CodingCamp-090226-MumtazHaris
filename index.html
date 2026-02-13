@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Profil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <b>My Website</b>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#profile">Our Profile</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1 id="user-greeting">Hi Name, Welcome</h1>
+        <p>Ini adalah website latihan pertama.</p>
+    </header>
+
+    <section id="profile">
+        <h2>Our Profile</h2>
+        <img src="https://via.placeholder.com/600x200" alt="Banner" style="width:100%">
+        <p><b>Visi & Misi:</b> Menjadi pengembang web yang handal.</p>
+    </section>
+
+    <section id="message">
+        <h2>Message Us</h2>
+        <form id="msgForm">
+            <input type="text" id="sender-name" placeholder="Nama" required><br>
+            <input type="date" id="sender-dob" required><br>
+            <textarea id="sender-msg" placeholder="Pesan" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result-box" style="border: 1px solid #000; padding: 10px; margin-top: 10px;">
+            <p><strong>Hasil:</strong></p>
+            <div id="output">Belum ada data.</div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
